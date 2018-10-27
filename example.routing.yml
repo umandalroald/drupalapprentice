@@ -1,0 +1,9 @@
+example.admin_settings_form:
+  path: '/user/contact'
+  defaults:
+    _form: '\Drupal\example\Form\ContactForm'
+    _title: 'Contact Form'
+  requirements:
+     _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
